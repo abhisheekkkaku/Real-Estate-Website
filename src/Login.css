@@ -1,0 +1,13 @@
+.login-form{
+    padding: 25;
+    width: 350px;
+    margin-left: auto;
+    background: #5499c7;
+    text-align: center;
+    position: relative;
+    transition: all ease-in-out;
+}
+
+.login1 {
+    width: -10px;
+}
