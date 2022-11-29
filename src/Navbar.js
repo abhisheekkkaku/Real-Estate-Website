@@ -3,11 +3,11 @@ import React from "react";
 const Navbar = (props) => {
   return (
     <div className=""> 
-    <marquee className=" m-0 p-0 bg-light  ">For Enquiry Call Us <strong >+919800000002 </strong>  & Connect with us on <strong className="text-danger">Facebook | Youtube | Instagram</strong></marquee>
+    <marquee className="bg-light">For Enquiry Call Us <strong className="" >+919800000002 </strong>  & Connect with us on Facebook | Youtube | Instagram</marquee>
       <h3 className="bg-warning m-0 fs-2">
      
         <svg
-          className="mx-2 bi bi-buildings"
+          className="mx-2 m-0 bi bi-buildings"
           xmlns="http://www.w3.org/2000/svg"
           width="22"
           height="22"
@@ -205,7 +205,7 @@ const Navbar = (props) => {
                   </li>
                 </ul>
               </div>
-              <button className=" heart rounded text-danger bg-normal border border-2 mx-4 my-1 " onClick={props.gotofavourates}>
+              <button className="hrt rounded text-danger bg-normal border border-2 mx-4 my-1 " onClick={props.gotofavourates}>
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -230,7 +230,7 @@ const Navbar = (props) => {
 
               <button
                 disabled={true}
-                className="btn btn-primary m-1 mx-1"
+                className="btn btn-primary m-1 mx-4"
                 type="submit"
               >
                 Sign up

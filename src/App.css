@@ -106,7 +106,7 @@
   /* width: 100px;
   height: 100px; */
   background-color: rgb(247, 247, 247);
-  color: rgb(134, 120, 120);
+  color: rgb(255, 0, 0);
   animation: mymove 5s infinite;
 }
 @keyframes mymove {
@@ -152,4 +152,77 @@ body, html {
 }
 .s-b:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.hrt{
+  cursor: zoom-in;
+}
+.hrt {
+  /* padding: 10px; */
+  /* background-color: rgb(132, 132, 132); */
+  transition: transform .2s; /* Animation */
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.hrt:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.div1:hover {
+  color: red;
+}
+
+.h-h {
+  color: red;
+}
+.h-h:hover {
+  transform: scale(1.1);
+}
+
+.h-h {
+  padding: 0px;
+  transition: transform .2s; /* Animation */
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.h-h1{
+  position: relative;
+  width: 76px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #243120;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: width .5s;
+  border-radius: .5s;
+}
+
+.h-h1 *{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-29%, -27%);
+  transition: opacity .25s;
+}
+.icon {
+  opacity: 0;
+}
+.h-h1:focus{
+   width: 30px;
+   background-color: #0fce7b;
+   border-radius: 50%;
+}
+.h-h1:focus .text{
+  opacity: 0;
+}
+.h-h1:focus .icon{
+  opacity: 1;
+  transition-delay: .1s;
 }

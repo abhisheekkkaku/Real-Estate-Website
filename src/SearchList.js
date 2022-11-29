@@ -75,7 +75,7 @@ const SearchList = (props) => {
                 id="specificSizeSelect"
                 onChange={updateFilters}
               >
-                <option  select="true">
+                <option select="true">
                   Choose...
                 </option>
                 <option value="4999999">Under 50Lakh</option>
