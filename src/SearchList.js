@@ -24,8 +24,7 @@ const SearchList = (props) => {
       <div className="bg-white-50 bg-gradient">
         <span
           id="box-size"
-          className="sb border rounded-box rounded row fw-bold  text-dark fw-bold bg-dark rounded"
-        >
+          className="sb border rounded-box rounded row fw-bold  text-dark fw-bold bg-dark rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -53,10 +52,10 @@ const SearchList = (props) => {
               <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
               <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
             </svg>
-            <input className="" name="location" onChange={updateFilters} />
+            <input className="cty" name="location" onChange={updateFilters} />
           </div>
 
-          <div className="fw-bold  fs-6 m-3  text-dark">
+          <div className="fw-bold  fs-6 m-3 text-dark">
             Budget
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,9 +67,9 @@ const SearchList = (props) => {
             >
               <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
             </svg>
-            <span className="mx-4 rounded  ">
+            <span className="mx-2 rounded  ">
               <select
-                className=" my-2 w-25px h-25px"
+                className="bgt my-2 w-25px h-25px"
                 name="budget"
                 id="specificSizeSelect"
                 onChange={updateFilters}
@@ -102,7 +101,7 @@ const SearchList = (props) => {
               />
             </svg>
             <input
-              className=""
+              className="typ"
               type="text"
               placeholder="Near metro, Hopsital..."
               value={filters.propertyType}
@@ -125,7 +124,7 @@ const SearchList = (props) => {
               <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z" />
             </svg>
             <span className=" rounded col-3 my-3 ">
-              <select className=" my-3" name="bhk" onChange={updateFilters}>
+              <select className="prt my-3" name="bhk" onChange={updateFilters}>
                 <option className="btn-group" value="" select="true">
                   Choose...
                 </option>

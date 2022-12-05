@@ -226,3 +226,36 @@ body, html {
   opacity: 1;
   transition-delay: .1s;
 }
+
+.cty{
+  box-sizing: 20px;
+  width: 190px;
+  height: 29px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.bgt{
+  box-sizing: 20px;
+  width: 190px;
+  height: 29px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.typ{
+  box-sizing: 20px;
+  width: 190px;
+  height: 29px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.prt{
+  box-sizing: 20px;
+  width: 190px;
+  height: 29px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 50px;
+  border-radius: 5px;
+}
